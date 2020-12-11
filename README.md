@@ -5,11 +5,11 @@ Home: https://www.lfd.uci.edu/~gohlke/
 
 Package license: BSD-3-Clause
 
-Feedstock license: BSD-3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/sdtfile-feedstock/blob/master/LICENSE.txt)
 
 Summary: Read Becker & Hickl SDT files
 
-
+Development: https://github.com/cgohlke/sdtfile
 
 Current build status
 ====================
