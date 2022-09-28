@@ -1,5 +1,5 @@
 {% set name = "sdtfile" %}
-{% set version = "2022.2.2" %}
+{% set version = "2022.9.28" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 0c17cbbf386a88c98f186038c7118cbc82247e8166bb8115b30dcc3cda702a3b
+  sha256: 61cd6949f593004868975d556ec9fd2cb226471bef1755a99e2afb2751d641d4
 
 build:
   number: 0
