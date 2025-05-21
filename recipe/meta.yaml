@@ -1,6 +1,6 @@
 {% set name = "sdtfile" %}
-{% set version = "2024.11.24" %}
-{% set python_min = "3.9" %}
+{% set version = "2025.5.10" %}
+{% set python_min = "3.10" %}
 
 
 package:
@@ -9,12 +9,12 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 79a6b92f205b7becccb7cc0de319be3d522cc3d14449cbbf21b662c7ca606d0f
+  sha256: d6466c2fa3a534b130512abe59df4f969f51d0657175107597f59db51b44aeb6
 
 build:
   number: 0
   noarch: python
-  script: {{ PYTHON }} -m pip install . -vv
+  script: {{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation
 
 requirements:
   host:
@@ -22,7 +22,7 @@ requirements:
     - setuptools
     - python {{ python_min }}
   run:
-    - numpy >=1.22.0
+    - numpy
     - python >={{ python_min }}
 
 test:
@@ -35,7 +35,7 @@ test:
     - python {{ python_min }}
 
 about:
-  home: https://www.lfd.uci.edu/~gohlke/
+  home: https://www.cgohlke.com/
   summary: Read Becker & Hickl SDT files
   license: BSD-3-Clause
   license_file: LICENSE
