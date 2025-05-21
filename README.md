@@ -3,7 +3,7 @@ About sdtfile-feedstock
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/sdtfile-feedstock/blob/main/LICENSE.txt)
 
-Home: https://www.lfd.uci.edu/~gohlke/
+Home: https://www.cgohlke.com/
 
 Package license: BSD-3-Clause
 
@@ -145,5 +145,6 @@ In order to produce a uniquely identifiable distribution:
 Feedstock Maintainers
 =====================
 
+* [@cgohlke](https://github.com/cgohlke/)
 * [@s-weigand](https://github.com/s-weigand/)
 
