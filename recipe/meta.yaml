@@ -1,5 +1,5 @@
 {% set name = "sdtfile" %}
-{% set version = "2025.5.10" %}
+{% set version = "2025.12.12" %}
 {% set python_min = "3.10" %}
 
 
@@ -9,7 +9,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: d6466c2fa3a534b130512abe59df4f969f51d0657175107597f59db51b44aeb6
+  sha256: f61fc221828ec29addde402e491d2013e3d9afa5de25cbcd628fcd8cd6c157e6
 
 build:
   number: 0
