@@ -1,6 +1,6 @@
 {% set name = "sdtfile" %}
 {% set version = "2026.6.6" %}
-{% set python_min = "3.11" %}
+{% set python_min = "3.12" %}
 
 
 package:
