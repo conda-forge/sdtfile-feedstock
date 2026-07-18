@@ -22,7 +22,8 @@ requirements:
     - setuptools
     - python {{ python_min }}
   run:
-    - numpy
+    - numpy >=2.1
+    - imagecodecs
     - python >={{ python_min }}
 
 test:
