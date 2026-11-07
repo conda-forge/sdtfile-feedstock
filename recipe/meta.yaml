@@ -1,5 +1,5 @@
 {% set name = "sdtfile" %}
-{% set version = "2026.10.14" %}
+{% set version = "2026.11.6" %}
 {% set python_min = "3.12" %}
 
 
@@ -9,7 +9,7 @@ package:
 
 source:
   url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 976b127e4a670f5dcdea9b02933cd1422c60232b0f23694ef56218d02ba6b038
+  sha256: 0955e285fb619425f6efe5dd589bc93f011b662af9e84ea40fc308a6bb1d6db3
 
 build:
   number: 0
